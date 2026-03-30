@@ -34,6 +34,7 @@ class Add extends Component {
                         this.handleSubmit(e)
                     }}
                     disabled={!this.state.task.trim()}
+                    autoComplete="off"
                 >
                     <input type="text" placeholder="Add new task..." id="task"
                         className="w-full xs:w-[73%] m-phone:w-[77%] sm:w-[81%] flex-1 bg-[#642b2b] text-white placeholder-[7b5151] px-4 py-3 rounded-2xl border-2 border-transparent outline-none transition-all duration-200 focus:border-[#964d4d] focus:shadow-lg focus:shadow-[#964d4d]/20"
