@@ -55,7 +55,7 @@ class App extends Component{
     return (
       <React.Fragment>
         <div className="min-h-screen w-full flex items-center justify-center bg-[#500000]">
-          <div className='bg-[#591F1F] w-[85%] flex flex-col gap-2 m-auto p-8 rounded-2xl'>
+          <div className='bg-[#591F1F] w-[85%] flex flex-col gap-2 m-auto p-8 rounded-2xl m-10'>
             <Add addTask={this.addTask} />
             <List tasks={this.state.tasks} deleteTask={this.deleteTask} toggleTask={ this.toggleTask } />
           </div>
