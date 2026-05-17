@@ -13,7 +13,7 @@ function Footer(props) {
                     {i} of {length} tasks remaining
                 </p>
             </div>
-            <p className="text-center text-xs mt-4 mb-4 text-[#7b5151]">Developed by Hady Jo</p>
+            <p className="text-center text-xs mt-4 text-[#7b5151]">Developed by Hady Jo</p>
         </>
     )
 }
