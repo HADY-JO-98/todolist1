@@ -2,9 +2,9 @@ import React, {Component} from "react";
 import Label from "./lable";
 class Add extends Component {
     state = {
-        id:'',
+        id:0,
         task: '',
-        status:''
+        status: false
     }
     handleChange = (e) => {
         this.setState({
